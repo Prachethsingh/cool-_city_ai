@@ -1,0 +1,13 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.env
+
+# Project specific
+coolcity_result.json
+.DS_Store
+*.log

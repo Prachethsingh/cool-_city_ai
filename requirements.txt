@@ -1,0 +1,23 @@
+# CoolCity AI — Python Dependencies
+# All free / open-source. Install with:
+#   pip install -r requirements.txt
+
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+
+# HTTP requests (Open-Meteo, Nominatim)
+requests==2.32.2
+
+# Data & geospatial (optional – for advanced UHI analysis)
+# geopandas>=0.14.0     # uncomment if using GeoTIFF UHI maps
+# rasterio>=1.3.0       # uncomment for satellite thermal data
+# matplotlib>=3.8.0     # uncomment for chart generation
+
+# LLM (Anthropic Claude for narrative generation)
+# The app also works without this — it falls back to rule-based narrative
+anthropic>=0.26.0
+
+# Utilities
+python-dotenv==1.0.1   # for .env file loading
